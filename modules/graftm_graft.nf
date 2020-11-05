@@ -11,6 +11,6 @@ file "*.fastq.gz"
 
 script:
 """
-graft --forward ${read} --graftm_package ${gpkg_path}
+graftM graft --forward ${read} --graftm_package ${gpkg_path}
 """
 }
