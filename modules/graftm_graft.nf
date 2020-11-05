@@ -1,6 +1,6 @@
 process graftm_graft {
 
-container 'test:latest'
+container 'graftm:latest'
 
 input:
 file(read)
